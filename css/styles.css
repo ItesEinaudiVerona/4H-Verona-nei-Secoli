@@ -5,7 +5,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Raleway", sans-serif
+    font-family: "Raleway", sans-serif;
 }
 
 .titolo-corpo {
@@ -16,8 +16,26 @@ h6 {
 
 }
 
+/* unvisited link */
+.w3-button {
+    color: green !important;
+  }
+
+  .w3-button:hover {
+    color: red !important;
+  }
+
+  .w3-button:hover {
+    color: yellow !important;
+  }
 
 
+.w3-bar-block #active{
+    background-color: yellow !important;
+}
+.w3-bar-block #active:hover{
+    background-color: green !important;
+}
 ul {
     line-height: 2em;
     list-style: none;
